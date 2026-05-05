@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Desmarcar uma (todas) as tarefas",
         "  x(X) ": "Deletar uma (todas) as tarefas (com todas as subtarefas)",
         "  t(T) ": "Começar/pausar temporizador para a tarefa",
+        "   P   ": "Alternar todos os temporizadores ativos",
         "   r   ": "Editar uma tarefa",
         "   s   ": "Alternar entre tarefa e subtarefa",
         "   .   ": "Alternar privacidade da tarefa",

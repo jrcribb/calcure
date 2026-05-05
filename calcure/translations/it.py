@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Deseleziona una fra (o tutte) le attività",
         "  x(X) ": "Cancella una fra (o tutte) le attività (con tutte le sue sottoattività)",
         "  t(T) ": "Avvia/ferma (o cancella) il timer per una attività",
+        "   P   ": "Attiva/disattiva tutti i timer attivi",
         "   r   ": "Modifica una attività",
         "   s   ": "Passa da attività a sottoattività (e viceversa)",
         "   .   ": "Imposta la privacy dell'attività",

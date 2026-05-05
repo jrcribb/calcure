@@ -45,6 +45,7 @@ KEYS_TODO = {
         "  u(U) ": "Unmark one (all) of the tasks",
         "  x(X) ": "Delete one (all) of the tasks (with all subtasks)",
         "  t(T) ": "Start/pause (remove) timer for a task",
+        "   P   ": "Toggle all active timers",
         "   r   ": "Rename a task",
         "   s   ": "Toggle between task and subtask",
         "   .   ": "Toggle task privacy",

@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Zrušiť označenie jednej (všetkých) úlohy",
         "  x(X) ": "Odstrániť jednu (všetky) úlohy (aj s podúlohami)",
         "  t(T) ": "Spustiť/pozastaviť (odstrániť) časovač úlohy",
+        "   P   ": "Prepnúť všetky aktívne časovače",
         "   r   ": "Premenovať úlohu",
         "   s   ": "Prepnúť medzi úlohou a podúlohou",
         "   .   ": "Prepnúť viditeľnosť úlohy",

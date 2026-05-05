@@ -45,6 +45,7 @@ KEYS_TODO = {
         "  u(U) ": "Odznači eno (vsa) opravilo",
         "  x(X) ": "Odstrani eno (vsa) opravilo (z vsemi podopravili)",
         "  t(T) ": "Poženi/zaustavi (odstrani) uro za opravilo",
+        "   P   ": "Preklopi vse aktivne ure",
         "   r   ": "Preimenuj opravilo",
         "   s   ": "Spremeni opravilo v podopravilo ali obratno",
         "   .   ": "Vklopi/izklopi zasebnost za opravilo",

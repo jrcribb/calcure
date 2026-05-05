@@ -244,6 +244,10 @@ class Collection:
 class Tasks(Collection):
     """List of tasks created by the user"""
 
+    def __init__(self):
+        super().__init__()
+        self.paused_by_toggle = set()
+
     @property
     def has_active_timer(self):
         for item in self.items:
@@ -273,6 +277,21 @@ class Tasks(Collection):
             if item.timer.is_counting and item.item_id != selected_task_id:
                 item.timer.stamps.append(int(time.time()))
                 self.changed = True
+
+    def toggle_all_timers(self):
+        """Pause all running timers, or resume those previously paused by this toggle"""
+        if self.paused_by_toggle:
+            for item in self.items:
+                if item.item_id in self.paused_by_toggle:
+                    item.timer.stamps.append(int(time.time()))
+                    self.changed = True
+            self.paused_by_toggle.clear()
+        else:
+            for item in self.items:
+                if item.timer.is_counting:
+                    self.paused_by_toggle.add(item.item_id)
+                    item.timer.stamps.append(int(time.time()))
+                    self.changed = True
 
     def reset_timer_for_task(self, selected_task_id):
         """Reset the timer for one of the tasks"""

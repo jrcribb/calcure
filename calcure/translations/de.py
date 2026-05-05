@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Markierung einer (aller) Aufgaben zurücksetzen",
         "  x(X) ": "Eine (alle) Aufgaben (inkl. Unteraufgaben) löschen",
         "  t(T) ": "Timer für Aufgabe starten/pausieren (entfernen)",
+        "   P   ": "Alle aktiven Timer umschalten",
         "   r   ": "Aufgabe umbenennen",
         "   s   ": "Zwischen Aufgabe und Unteraufgabe wechseln",
         "   .   ": "Aufgaben-Privatsphäre umschalten",

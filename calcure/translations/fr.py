@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Démarquer une (toutes) les tâches",
         "  x(X) ": "Supprimer une (toutes) les tâches (avec toutes les sous-tâches)",
         "  t(T) ": "Démarrer/mettre en pause (supprimer) le minuteur pour une tâche",
+        "   P   ": "Basculer tous les minuteurs actifs",
         "   r   ": "Modifier une tâche",
         "   s   ": "Basculer entre tâche et sous-tâche",
         "   .   ": "Basculer la confidentialité des tâches",

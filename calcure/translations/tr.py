@@ -44,6 +44,7 @@ KEYS_TODO = {
         "  u(U) ": "Görevlerden birinin (tümünün) işaretini kaldırın",
         "  x(X) ": "Görevlerden birini (tümünü) silme (tüm alt görevlerle birlikte)",
         "  t(T) ": "Bir görev için zamanlayıcıyı başlatma/duraklatma (kaldırma)",
+        "   P   ": "Tüm aktif zamanlayıcıları aç/kapat",
         "  e,c  ": "Görev düzenleme",
         "   s   ": "Görev ve alt görev arasında geçiş yapma",
         "   .   ": "Görev gizliliğini aç / kapat",

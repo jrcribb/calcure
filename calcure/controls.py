@@ -403,7 +403,7 @@ def control_daily_screen(stdscr, screen, user_events, importer):
 
 @safe_run
 @block_until_valid_input(accepted_keys=[
-    " ", "*", ".", "/", "?", "A", "C", "D", "F", "H", "I", "KEY_BTAB", "L", "Q",
+    " ", "*", ".", "/", "?", "A", "C", "D", "F", "H", "I", "KEY_BTAB", "L", "P", "Q",
     "T", "U", "V", "X", "a", "c", "d", "e", "f", "h", "i", "l", "m", "q", "r",
     "s", "t", "u", "v", "x",
 ])
@@ -556,6 +556,10 @@ def control_journal_screen(stdscr, screen, user_tasks, importer):
             # if confirmed:
                 # importer.import_tasks_from_taskwarrior()
                 # screen.refresh_now = True
+
+        # Toggle all active timers:
+        if screen.key == "P":
+            user_tasks.toggle_all_timers()
 
         # Reload:
         if screen.key in ["Q"]:

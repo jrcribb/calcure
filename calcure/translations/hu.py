@@ -45,6 +45,7 @@ KEYS_TODO = {
         "  u(U) ": "Egy (vagy minden) feladat kész jelölésének törlése",
         "  x(X) ": "Egy (vagy minden) feladat törlése (az összes alfeladattal együtt)",
         "  t(T) ": "Időzítő indítása/szüneteltetése (vagy törlése) feladathoz",
+        "   P   ": "Összes aktív időzítő váltása",
         "   r   ": "Feladat átnevezése",
         "   s   ": "Váltás feladat/alfeladat között",
         "   .   ": "Feladat privátként jelölése",
